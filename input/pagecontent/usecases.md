@@ -32,3 +32,7 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid lightgrey; text-align: center;">Additional Information</td>
+  </tr>
+</table>
