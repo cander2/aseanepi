@@ -33,6 +33,6 @@
     </td>
   </tr>
   <tr>
-    <td colspan="4" style="border: 1px solid lightgrey; text-align: center;">Additional Information</td>
+    <td colspan="4" style="border: 1px solid lightgrey; text-align: center;"><img src="epitypecapabilities.png" alt="Capabilities for each ePI Tap" /></td>
   </tr>
 </table>
