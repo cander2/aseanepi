@@ -1,4 +1,3 @@
-html
 <table style="border: 1px solid lightgrey; border-collapse: collapse;">
   <tr style="background-color: blue; color: white; font-weight: bold;">
     <th style="border: 1px solid lightgrey;">ePI Type 1:<br>Label Template Only</th>
