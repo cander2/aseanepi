@@ -38,5 +38,3 @@
     </td>
   </tr>
 </table>
-
-<img src="epitypecapabilities.png" alt="Capabilities of each ePI type"/>
