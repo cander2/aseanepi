@@ -1,4 +1,4 @@
-## Purpose
+### Purpose
 To define a common standard for exchanging electronic medicinal product information (ePI) in ASEAN.
 
 We support the following:
@@ -9,14 +9,14 @@ We support the following:
 - Optional ASEAN PIL template
 
 
-## Goals
+### Goals
 The immediate goal of this specification is to expose ePI consumers and the vendor community to a set of profiles that identify the data elements, code systems and value sets commonly used in ePIs regardless of the jurisdiction.
 
 The strategic goal is to offer a better route for patients to access trustworthy, up-to-date medicinal product information that better meets their individual needs.
 
-## Scope
+### Scope
 
-### In Scope
+#### In Scope
 - ASEAN Countries
 - ePI (information for healthcare practitioner, information for the patient, package label). Human pharmaceutical, radiopharmaceutical and biologic medicinal products (prescription and physician-administered).
 - HL7 FHIR resources:
@@ -33,10 +33,10 @@ The strategic goal is to offer a better route for patients to access trustworthy
   - Packaged Product Definition
   - Binary
 
-### Out of Scope
+#### Out of Scope
 Over the counter (non-prescription) drugs, Investigational and authorized medicinal products, Medical devices co-packed with a biopharmaceutical product (e.g., pre-filled syringe), natural health products, medical devices, food and veterinary drugs.
 
-## Background
+### Background
 
 In recent years, e-labeling has been introduced in many countries around the world, including the ASEAN countries. As of November 2024, 3 ASEAN countries - Singapore, Malaysia, and Thailand - have issued official e-labeling guidance, while Indonesia initiated a nation-wide e-labeling pilot in June 2023. Current e-labeling initiatives in ASEAN focus on publishing electronic labels in PDF format online, integrating machine-readable codes on packaging for accessibility, and phasing out paper labels. This transition has demonstrated significant benefits, providing patients and healthcare professionals with timely, accessible product information, while also promoting resource efficiency and environmental sustainability by reducing paper usage.
 
