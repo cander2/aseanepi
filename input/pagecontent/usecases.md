@@ -1,5 +1,5 @@
 <table style="border: 1px solid lightgrey; border-collapse: collapse;">
-  <tr style="background-color: blue; color: white; font-weight: bold;">
+  <tr style="background-color: blue; color: white; font-weight: bold; text-align: center;">
     <th style="border: 1px solid lightgrey;">ePI Type 1:<br>Label Template Only</th>
     <th style="border: 1px solid lightgrey;">ePI Type 2:<br>Product Details</th>
     <th style="border: 1px solid lightgrey;">ePI Type 3:<br>Clinical Details</th>
@@ -32,4 +32,3 @@
       </ul>
     </td>
   </tr>
-</table>
