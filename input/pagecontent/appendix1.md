@@ -1,9 +1,9 @@
 # APPENDIX 1: NATIONAL PIL TEMPLATE IN ASEAN COUNTRIES
-## 1. Malaysia
+## Malaysia
 
-## 2. Philippines
+## Philippines
 
-## 3. Thailand
+## Thailand
 
-## 4. Indonesia
+## Indonesia
 
