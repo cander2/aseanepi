@@ -34,7 +34,7 @@
   </tr>
   <tr>
     <td colspan="4" style="border: 1px solid lightgrey; text-align: center;">
-      <img src="epitypecapabilities.png" alt="Capabilities of each ePI type" >
+      <img src="epitypecapabilities.png" alt="Capabilities of each ePI type" />
     </td>
   </tr>
 </table>
