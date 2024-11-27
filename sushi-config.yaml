@@ -55,11 +55,11 @@ pages:
    appendix2.md:
      title: Appendix 2
 
-   implementation.xml:
-   examples.xml:
-     title: Examples Overview
-     simpleExamples.xml:
-     complexExamples.xml:
+#   implementation.xml:
+#   examples.xml:
+#     title: Examples Overview
+#     simpleExamples.xml:
+#     complexExamples.xml:
 
 menu:
   Home: index.html
