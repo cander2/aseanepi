@@ -8,7 +8,6 @@ We support the following:
 - Optional ASEAN SmPC template for HCP
 - Optional ASEAN PIL template
 
-Aim for a ePI type 2 light (we can define what that means later)
 
 ## 3 Goals
 The immediate goal of this specification is to expose ePI consumers and the vendor community to a set of profiles that identify the data elements, code systems and value sets commonly used in ePIs regardless of the jurisdiction.
