@@ -48,7 +48,7 @@ pages:
      title: Home
    usecases.md:
      title: Use Cases
-  terminology.md:
+   terminology.md:
     title: Terminology
    bestpractice.md:
      title: Best Practice
