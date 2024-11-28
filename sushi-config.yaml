@@ -48,6 +48,8 @@ pages:
      title: Home
    usecases.md:
      title: Use Cases
+  terminology.md:
+    title: Terminology
    bestpractice.md:
      title: Best Practice
    appendix1.md:
@@ -65,6 +67,7 @@ menu:
   Home: index.html
   Use Cases: usecases.html
   Best Practice: bestpractice.html
+  Terminology: terminology.html
   Appendices: 
     Appendix 1: appendix1.html
     Appendix 2: appendix2.html
