@@ -1,3 +1,5 @@
+<img src="epitypecapabilities.png" alt="Capabilities of each ePI type"/>
+
 <table style="border: 1px solid lightgrey; border-collapse: collapse;">
   <tr style="background-color: blue; color: white; font-weight: bold;">
     <th style="border: 1px solid lightgrey; text-align: center;">ePI Type 1:<br>Label Template Only</th>
