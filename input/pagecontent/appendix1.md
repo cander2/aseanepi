@@ -36,6 +36,57 @@
 Link to ASEAN template sample [To be added]
 
 ### Malaysia Template Section Headings
+Consumer Medication Information Leaflet (RiMUP)
+PRODUCT NAME®                                                 
+Active Ingredient/ generic name (Strengths) 
+What is in this leaflet  
+    1. What [product name] is used for   
+    2. How [product name] works   
+    3. Before you use [product name]   
+    4. How to use [product name]    
+    5. While you are using it   
+    6. Side effects   
+    7. Storage and Disposal of [product name]   
+    8. Product Description   
+    9. Manufacturer    
+    10. Product Registration Holder   
+    11. Date of revision   
+    12. Serial Number  
+    
+1. What [product name] is used for 
+2. How [product name] works 
+3. Before you use [product name] 
+    - When you must not use it 
+    - Before you start to use it 
+    - Taking other medicines 
+4. How to use [product name]  
+    - How much to use 
+    - When to use it 
+    - How long to use it 
+    - If you forget to use it 
+    - If you use too much (overdose) 
+5. While you are using it 
+    - Things you must do 
+    - Things you must not do 
+    - Things to be careful of 
+6. Side effects 
+    - You may report any side effects or adverse drug reactions directly to the National Centre for Adverse Drug Reaction Monitoring by calling Tel: 03-78835490, or visiting the website npra.gov.my [Consumersà Reporting Side Effects to Medicines (ConSERF) or Vaccines (AEFI)] 
+Storage and Disposal of [product name] 
+7. Storage and Disposal of [product name] 
+    - Storage 
+    - Disposal 
+8. Product Description 
+    - What it looks like 
+    - Ingredients 
+    - Active ingredient(s) 
+    - Inactive ingredients 
+    - MAL number: 
+9. Manufacturer  
+10. Product Registration Holder 
+11. Date of revision 
+    - DD/MM/YYYY 
+12. Serial Number 
+    - NPRA (Rx/x)xxxxxx/xxxxx 
 
 ### Philippines Template Section Headings
 
