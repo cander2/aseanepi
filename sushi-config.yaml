@@ -66,8 +66,8 @@ pages:
 menu:
   Home: index.html
   Use Cases: usecases.html
-  Best Practice: bestpractice.html
   Terminology: terminology.html
+  Best Practice: bestpractice.html
   Appendices: 
     Appendix 1: appendix1.html
     Appendix 2: appendix2.html
