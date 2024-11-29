@@ -89,6 +89,28 @@ Storage and Disposal of [product name]
     - NPRA (Rx/x)xxxxxx/xxxxx 
 
 ### Philippines Template Section Headings
+PIL shall be prepared and written in layman's terms, and shall contain the following minimum information:  
+l) Name of the Product  
+2) Description of the Product  
+3) What is in the Medicine?  
+4) Strength of the Medicine  
+5) What is this Medicine used for?  
+6) How much and how often should you use this Medicine?  
+7) When should you not take this Medicine?  
+8) Care that should be taken when taking this Medicine?  
+9) Undesirable Effects of this Medicine  
+10) What other medicine or food should be avoided while taking this Medicine?  
+11) What should you do if you miss a dose?  
+12) Signs and Symptoms of Overdose  
+13) What to do when you have taken more than the recommended dosage?  
+14) How should you keep this Medicine?  
+15) When should you consult your doctor?  
+16) Name and Address of Marketing Authorization Holder  
+17) Name and Address of Manufacturer  
+18) ADR Reporting Statement  
+19) Registration Number  
+20) Date of First Authorization/Renewal of the Authorization  
+21) Date of Revision of Patient Information Leaflet  
 
 ### Thailand Template Section Headings
 1. What is this drug  
