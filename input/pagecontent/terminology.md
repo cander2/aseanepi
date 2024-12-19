@@ -1,9 +1,5 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Controlled Terminology</title>
-</head>
 <body>
-    <h1>Controlled Terminology</h1>
     <p>Controlled terminology is a key part of FHIR since it provides a consistent and standardized method for naming identified terms.</p>
     <p>Each Resource contains a set of elements and attributes. Some elements are bound to a controlled terminology. The bindings offer various degrees of flexibility:</p>
     <ul>

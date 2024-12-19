@@ -6,7 +6,7 @@
     <style>
         .two-column-list {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 2fr;
             list-style-type: disc;
             padding: 1;
         }
