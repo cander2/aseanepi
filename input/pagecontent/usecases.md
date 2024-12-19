@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
      <h2>FHIR Resources for ePI</h2>
     <p>FHIR solutions are built from a set of modular components called "Resources". Of the 150+ resources available for use, the following 14 are in-scope for ePI:</p>
@@ -52,12 +51,10 @@
     </thead>
     <tbody>
         <tr>
-            <td style="width: 70px">ePI Type 1</td>
+            <td style="width: 90px">ePI Type 1</td>
             <td>
-                <ul>
-                    <li>Bundle</li>
-                    <li>Composition (contained Binary)</li>
-                </ul>
+              <p>Bundle</p>
+              <p>Composition (contained Binary)</p>
             </td>
             <td>Reproduces the local label template; i.e., section headings, text, bullets, tables, images</td>
         </tr>
@@ -134,7 +131,7 @@
     <table>
         <thead style="border: 1px solid grey; background-color: #f0f0f0;">
             <tr>
-                <th>Use Case</th>
+                <th style="width: 150px">Use Case</th>
                 <th>ePI Sub-type Combinations</th>
             </tr>
         </thead>
@@ -142,13 +139,11 @@
             <tr>
                 <td>Advanced search</td>
                 <td>
-                    <ul>
-                        <li>Just A - only need to search by company and not by product details</li>
-                        <li>A and B – Search by company, product name/status</li>
-                        <li>A, B, C, and D – search by company, product name, license, and manufactured form (including ingredients, strength)</li>
-                        <li>A, B, C, D, and F - search by company, product name, license, manufactured form, and packaging details</li>
-                        <li>A, B, C, D, E, and F - search by company, product name, license, manufactured dose form, administrable dose form, and packaging details</li>
-                    </ul>
+<p>Just A - only need to search by company and not by product details.</p>
+<p>A and B – Search by company, product name/status.</p>
+<p>A, B, C, and D – search by company, product name, license, and manufactured form (including ingredients, strength).</p>
+<p>A, B, C, D, and F - search by company, product name, license, manufactured form, and packaging details.</p>
+<p>A, B, C, D, E, and F - search by company, product name, license, manufactured dose form, administrable dose form, and packaging details.</p>
                 </td>
             </tr>
             <tr>
@@ -170,10 +165,8 @@
             <tr>
                 <td>Electronic Health</td>
                 <td>
-                    <ul>
-                        <li>A, B, C, and D are needed to support Electronic Medical Records and ePrescription since these resources help to uniquely identify and differentiate between medicinal products and their manufacturers.</li>
-                        <li>E can be added if there is a need to differentiate between the manufactured dose form and the administrable dose form of the product; or a need to determine how much of the reconstituted solution for infusion was administered to the patient.</li>
-                    </ul>
+<p>A, B, C, and D are needed to support Electronic Medical Records and ePrescription since these resources help to uniquely identify and differentiate between medicinal products and their manufacturers.</p>
+<p>E can be added if there is a need to differentiate between the manufactured dose form and the administrable dose form of the product; or a need to determine how much of the reconstituted solution for infusion was administered to the patient.</p>
                 </td>
             </tr>
         </tbody>
