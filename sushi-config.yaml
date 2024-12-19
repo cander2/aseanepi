@@ -50,6 +50,8 @@ pages:
      title: Use Cases
    terminology.md:
     title: Terminology
+   epiElements.md:
+    title: ePI Elements
    bestpractice.md:
      title: Best Practice
    appendix1.md:
@@ -67,6 +69,7 @@ menu:
   Home: index.html
   Use Cases: usecases.html
   Terminology: terminology.html
+  ePI Elements: epiElements.html
   Best Practice: bestpractice.html
   Appendices: 
     Appendix 1: appendix1.html

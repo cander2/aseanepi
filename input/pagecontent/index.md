@@ -55,7 +55,6 @@ The strategic goal is to offer a better route for patients to access trustworthy
     </ul>
   </li>
 </ul>
-
 </body>
 
 #### Out of Scope
