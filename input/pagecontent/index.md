@@ -19,19 +19,44 @@ The strategic goal is to offer a better route for patients to access trustworthy
 #### In Scope
 - ASEAN Countries
 - ePI (information for healthcare practitioner, information for the patient, package label). Human pharmaceutical, radiopharmaceutical and biologic medicinal products (prescription and physician-administered).
-- HL7 FHIR resources:
-  - List
-  - Bundle
-  - Composition
-  - Organization
-  - Regulated Authorization
-  - Medicinal Product Definition
-  - Administrable Product Definition
-  - Manufactured Item Definition
-  - Ingredient
-  - Substance Definition
-  - Packaged Product Definition
-  - Binary
+<head>
+    <title>Two-Column Bulleted List</title>
+    <style>
+        .two-column-list {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            list-style-type: circle;
+            padding: 2;
+        }
+        .two-column-list li {
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+<ul>
+  <li>
+    <p>HL7 FHIR resources:</p>
+    <ul class="two-column-list">
+        <li>List</li>
+        <li>Manufactured Item Definition</li>
+        <li>Bundle</li>
+        <li>Administrable Product Definition</li>
+        <li>Composition </li>
+        <li>Ingredient</li>
+        <li>Binary</li>
+        <li>Substance Definition</li>
+        <li>Organization</li>
+        <li>Packaged Product Definition</li>
+        <li>Regulated Authorization</li>
+        <li>Clinical Use Definition</li>
+        <li>Medicinal Product Definition</li>
+        <li>Medication Statement</li>
+    </ul>
+  </li>
+</ul>
+
+</body>
 
 #### Out of Scope
 Over the counter (non-prescription) drugs, Investigational and authorized medicinal products, Medical devices co-packed with a biopharmaceutical product (e.g., pre-filled syringe), natural health products, medical devices, food and veterinary drugs.
