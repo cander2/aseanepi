@@ -24,7 +24,7 @@ The strategic goal is to offer a better route for patients to access trustworthy
     <style>
         .two-column-list {
             display: grid;
-            grid-template-columns: 2fr 2fr;
+            grid-template-columns: 2fr 3fr;
             list-style-type: circle;
             padding: 2;
         }

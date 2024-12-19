@@ -1,38 +1,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
      <h3>FHIR Resources for ePI</h3>
     <p>FHIR solutions are built from a set of modular components called "Resources". Of the 150+ resources available for use, the following 14 are in-scope for ePI:</p>
-<head>
-    <title>Two-Column Bulleted List</title>
-    <style>
-        .two-column-list {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            list-style-type: disc;
-            padding: 1;
-        }
-        .two-column-list li {
-            margin-bottom: 0.5em;
-        }
-    </style>
-</head>
-<body>
-    <ul class="two-column-list">
-        <li>List</li>
-        <li>Manufactured Item Definition</li>
-        <li>Bundle</li>
-        <li>Administrable Product Definition</li>
-        <li>Composition </li>
-        <li>Ingredient</li>
-        <li>Binary</li>
-        <li>Substance Definition</li>
-        <li>Organization</li>
-        <li>Packaged Product Definition</li>
-        <li>Regulated Authorization</li>
-        <li>Clinical Use Definition</li>
-        <li>Medicinal Product Definition</li>
-        <li>Medication Statement</li>
-    </ul>
-</body>
+<ul>
+    <li>List</li>
+    <li>Bundle</li>
+    <li>Composition</li>
+    <li>Organization</li>
+    <li>Regulated Authorization</li>
+    <li>Medicinal Product Definition</li>
+    <li>Administrable Product Definition</li>
+    <li>Manufactured Item Definition</li>
+    <li>Ingredient</li>
+    <li>Substance Definition</li>
+    <li>Packaged Product Definition</li>
+    <li>Clinical Use Definition</li>
+    <li>Binary</li>
+</ul>
     <p>Not all 14 resources are required to support all ePI related use cases. Different resources can be combined to support different use cases. To help implementors decide what resources are needed when, ePI resources are combined into the following four types and sub-types:</p>
 <table style="border: 1px solid grey; border-collapse: collapse; vertical-align: middle;">
     <style>
