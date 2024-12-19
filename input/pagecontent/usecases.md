@@ -1,5 +1,5 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
-     <h2>FHIR Resources for ePI</h2>
+     <h3>FHIR Resources for ePI</h3>
     <p>FHIR solutions are built from a set of modular components called "Resources". Of the 150+ resources available for use, the following 14 are in-scope for ePI:</p>
 <head>
     <title>Two-Column Bulleted List</title>
@@ -121,9 +121,9 @@
     </tbody>
 </table>
     <p>Refer to Appendix XX for the recommended list of elements, attributes, and terminologies needed for each resource to support ePI.</p>
-    <h2>ePI Type 1</h2>
+    <h3>ePI Type 1</h3>
     <p>ePI Type 1 represents the minimum requirement to be considered an ePI since it allows for the recreation of the existing label template. It can be used to create the Healthcare professional (HCP) label, Patient Information Leaflet (PIL), or label text for artwork. For example, it can be used to recreate EMA’s QRD template.</p>
-    <h2>ePI Type 2 (a to f)</h2>
+    <h3>ePI Type 2 (a to f)</h3>
     <p>ePI Type 2a to f can be used to support numerous use cases dependent on the products physical attributes or the companies associated with the product. There is no requirement to use A to F together. For example, these combinations are needed to support the following use cases:</p>
     <table>
         <thead style="border: 1px solid grey; background-color: #f0f0f0;">
@@ -168,7 +168,7 @@
             </tr>
         </tbody>
     </table>
-    <h2>ePI Type 3 (a and b)</h2>
+    <h3>ePI Type 3 (a and b)</h3>
     <p>ePI Type 3a can be used to support personalization use cases; particularly ones related to polypharmacy. For example:</p>
     <ul>
         <li>use the structured interaction data to confirm if a patient is likely to encounter drug:drug, drug:food, drug:lab, or drug:other interactions</li>
@@ -176,13 +176,13 @@
     </ul>
     <p>ePI Type 3b can be used to support the creation of machine-readable dosing instructions. For example, encoded way of saying take two 20 mg tablets once per day one for two weeks. This structured dosing data can be sent to a mobile device or eHealth app to provide a patient with automated notifications.</p>
 
-<h2>ePI Type 4</h2>
+<h3>ePI Type 4</h3>
 <p>ePI Type 1 to 3 involves associating structured data to semi-structured narrative text. ePI Type 4 is different since all data is presented as discrete, structured data components. Narrative text is still present but only where needed and is always incorporated into the relevant discrete structured data component. For example:</p>
 <ul>
     <li>Each individual indication has a corresponding ClinicalUseDefinition resource with SNOMED, ICD, MED-RT, or MedDRA encoding about the indication; the disease, symptom, or procedure; and comorbidity. The ClinicalUseDefinition resource also includes space for narrative text.</li>
     <li>Each undesirable effect has a corresponding ClinicalUseDefinition resource with the symptom, condition, effect, classification, and frequency of occurrence. As a result, there is no table of adverse event frequencies. Instead, there is now a series of data objects that contain the same information. Those data objects can be transformed and presented as a traditional table using a style sheet; or they can be presented in different formats if needed.</li>
 </ul>
-<h2>Recommendation</h2>
+<h3>Recommendation</h3>
 <p>As a first step, “Type 2 A, B, C and D (strength, ingredients)” is recommended for ASEAN countries.</p>
 <p>It will help to enable advanced search function for key information such as company, product name, license, ingredients, and strength (use case 1). Also, the cross-border use case can be made possible, which provides patients the ability to get access to medicines they need while traveling (use case 2).</p>
 <p>If the markets allow to add more resources, “Type 2 A, B, C, D (strength, ingredients), and F” is recommended for ASEAN countries, because the use case 2, and 4 are also useful.</p>
