@@ -18,23 +18,22 @@
 <body>
     <ul class="two-column-list">
         <li>List</li>
-        <li>Bundle</li>
-        <li>Composition</li>
-        <li>Binary</li>
-        <li>Organization</li>
-        <li>Regulated Authorization</li>
-        <li>Medicinal Product Definition</li>
-        <li>Administrable Product Definition</li>
         <li>Manufactured Item Definition</li>
+        <li>Bundle</li>
+        <li>Administrable Product Definition</li>
+        <li>Composition </li>
         <li>Ingredient</li>
+        <li>Binary</li>
         <li>Substance Definition</li>
+        <li>Organization</li>
         <li>Packaged Product Definition</li>
+        <li>Regulated Authorization</li>
         <li>Clinical Use Definition</li>
+        <li>Medicinal Product Definition</li>
         <li>Medication Statement</li>
     </ul>
 </body>
     <p>Not all 14 resources are required to support all ePI related use cases. Different resources can be combined to support different use cases. To help implementors decide what resources are needed when, ePI resources are combined into the following four types and sub-types:</p>
-
 <table style="border: 1px solid grey; border-collapse: collapse; vertical-align: middle;">
     <style>
         table, th, td {
@@ -51,7 +50,7 @@
     </thead>
     <tbody>
         <tr>
-            <td style="width: 90px">ePI Type 1</td>
+            <td style="width: 90px; vertical-align: middle;">ePI Type 1</td>
             <td>
               <p>Bundle</p>
               <p>Composition (contained Binary)</p>
@@ -183,13 +182,9 @@
     <li>Each individual indication has a corresponding ClinicalUseDefinition resource with SNOMED, ICD, MED-RT, or MedDRA encoding about the indication; the disease, symptom, or procedure; and comorbidity. The ClinicalUseDefinition resource also includes space for narrative text.</li>
     <li>Each undesirable effect has a corresponding ClinicalUseDefinition resource with the symptom, condition, effect, classification, and frequency of occurrence. As a result, there is no table of adverse event frequencies. Instead, there is now a series of data objects that contain the same information. Those data objects can be transformed and presented as a traditional table using a style sheet; or they can be presented in different formats if needed.</li>
 </ul>
-
 <h2>Recommendation</h2>
-<p>As a first step, “Type 2 A, B, C and D (strength, ingredients)” is recommended for ASEAN countries.   
-
+<p>As a first step, “Type 2 A, B, C and D (strength, ingredients)” is recommended for ASEAN countries.</p>
 <p>It will help to enable advanced search function for key information such as company, product name, license, ingredients, and strength (use case 1). Also, the cross-border use case can be made possible, which provides patients the ability to get access to medicines they need while traveling (use case 2).</p>
-
 <p>If the markets allow to add more resources, “Type 2 A, B, C, D (strength, ingredients), and F” is recommended for ASEAN countries, because the use case 2, and 4 are also useful.</p>
-
 <p>Drug shortages is a common issue around the world including ASEAN countries. Also, it would be ideal to improve the supply chain and distribution within ASEAN countries, since there are some scenarios for the shared pack.
 </p>
