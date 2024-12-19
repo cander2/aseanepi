@@ -35,7 +35,7 @@
 </body>
     <p>Not all 14 resources are required to support all ePI related use cases. Different resources can be combined to support different use cases. To help implementors decide what resources are needed when, ePI resources are combined into the following four types and sub-types:</p>
 
-<table style="border: 1px solid grey; border-collapse: collapse;">
+<table style="border: 1px solid grey; border-collapse: collapse; vertical-align: middle;">
     <style>
         table, th, td {
             border: 1px solid grey;
@@ -110,10 +110,8 @@
                     <p>b. Medication Statement</p>
             </td>
             <td>
-                <ul>
-                    <li>Describes Indication, contraindication, interactions, undesirable effects, and warnings</li>
-                    <li>Describes how to structure dose instructions</li>
-                </ul>
+              <p>Describes Indication, contraindication, interactions, undesirable effects, and warnings</p>
+              <p>Describes how to structure dose instructions</p>
             </td>
         </tr>
         <tr>
@@ -135,7 +133,7 @@
                 <th>ePI Sub-type Combinations</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody style="vertical-align: middle;">
             <tr>
                 <td>Advanced search</td>
                 <td>
