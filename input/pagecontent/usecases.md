@@ -162,7 +162,7 @@
 <tr>
 <td style="width: 54px; text-align: center;">5</td>
 <td style="width: 168.729px;">Allergens</td>
-<td>D and E are needed to identify ingredients that are known or possible allergens (e.g., lactose or aspartame).</td>
+<td>D is needed to identify ingredients that are known or possible allergens (e.g., lactose or aspartame).</td>
 </tr>
 <tr>
 <td style="width: 54px; text-align: center;">6</td>
