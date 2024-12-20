@@ -126,48 +126,54 @@
     <h3>ePI Type 2 (a to f)</h3>
     <p>ePI Type 2a to f can be used to support numerous use cases dependent on the products physical attributes or the companies associated with the product. There is no requirement to use A to F together. For example, these combinations are needed to support the following use cases:</p>
     <table>
-        <thead style="border: 1px solid grey; background-color: #f0f0f0;">
-            <tr>
-                <th style="width: 150px">Use Case</th>
-                <th>ePI Sub-type Combinations</th>
-            </tr>
-        </thead>
-        <tbody style="vertical-align: middle;">
-            <tr>
-                <td>Advanced search</td>
-                <td>
+<thead style="border: 1px solid grey; background-color: #f0f0f0;">
+<tr>
+<th style="text-align: left;" colspan="2">Use Case</th>
+<th>ePI Sub-type Combinations</th>
+</tr>
+</thead>
+<tbody style="vertical-align: middle;">
+<tr>
+<td style="text-align: center;">1</td>
+<td>Advanced search</td>
+<td>
 <p>Just A - only need to search by company and not by product details.</p>
-<p>A and B – Search by company, product name/status.</p>
-<p>A, B, C, and D – search by company, product name, license, and manufactured form (including ingredients, strength).</p>
+<p>A and B &ndash; Search by company, product name/status.</p>
+<p>A, B, C, and D &ndash; search by company, product name, license, and manufactured form (including ingredients, strength).</p>
 <p>A, B, C, D, and F - search by company, product name, license, manufactured form, and packaging details.</p>
 <p>A, B, C, D, E, and F - search by company, product name, license, manufactured dose form, administrable dose form, and packaging details.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>Drug shortages</td>
-                <td>A, B, C, D, and F are needed to search by company, product name, license status, manufactured form, and pack details across drug classes and categories to find a suitable match to resolve the shortage.</td>
-            </tr>
-            <tr>
-                <td>Cross-border travel</td>
-                <td>A, B, and D are needed to search by company and product details across international borders to find a suitable match to a patient’s prescription in another country.</td>
-            </tr>
-            <tr>
-                <td>Distribution</td>
-                <td>A, B, C and F are needed to facilitate ordering and distribution of packaged products. The Packaged Product Definition (F) carries product and pack identifiers like GTIN, Stock Keeping Unit (SKUs), or other local pack identifiers.</td>
-            </tr>
-            <tr>
-                <td>Allergens</td>
-                <td>D and E are needed to identify ingredients that are known or possible allergens (e.g., lactose or aspartame).</td>
-            </tr>
-            <tr>
-                <td>Electronic Health</td>
-                <td>
+</td>
+</tr>
+<tr>
+<td style="width: 54px; text-align: center;">2</td>
+<td style="width: 168.729px;">Drug shortages</td>
+<td>A, B, C, D, and F are needed to search by company, product name, license status, manufactured form, and pack details across drug classes and categories to find a suitable match to resolve the shortage.</td>
+</tr>
+<tr>
+<td style="width: 54px; text-align: center;">3</td>
+<td style="width: 168.729px;">Cross-border travel</td>
+<td>A, B, and D are needed to search by company and product details across international borders to find a suitable match to a patient&rsquo;s prescription in another country.</td>
+</tr>
+<tr>
+<td style="width: 54px; text-align: center;">4</td>
+<td style="width: 168.729px;">Distribution</td>
+<td>A, B, C and F are needed to facilitate ordering and distribution of packaged products. The Packaged Product Definition (F) carries product and pack identifiers like GTIN, Stock Keeping Unit (SKUs), or other local pack identifiers.</td>
+</tr>
+<tr>
+<td style="width: 54px; text-align: center;">5</td>
+<td style="width: 168.729px;">Allergens</td>
+<td>D and E are needed to identify ingredients that are known or possible allergens (e.g., lactose or aspartame).</td>
+</tr>
+<tr>
+<td style="width: 54px; text-align: center;">6</td>
+<td style="width: 168.729px;">Electronic Health</td>
+<td>
 <p>A, B, C, and D are needed to support Electronic Medical Records and ePrescription since these resources help to uniquely identify and differentiate between medicinal products and their manufacturers.</p>
 <p>E can be added if there is a need to differentiate between the manufactured dose form and the administrable dose form of the product; or a need to determine how much of the reconstituted solution for infusion was administered to the patient.</p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+</td>
+</tr>
+</tbody>
+</table>
     <h3>ePI Type 3 (a and b)</h3>
     <p>ePI Type 3a can be used to support personalization use cases; particularly ones related to polypharmacy. For example:</p>
     <ul>
@@ -183,8 +189,7 @@
     <li>Each undesirable effect has a corresponding ClinicalUseDefinition resource with the symptom, condition, effect, classification, and frequency of occurrence. As a result, there is no table of adverse event frequencies. Instead, there is now a series of data objects that contain the same information. Those data objects can be transformed and presented as a traditional table using a style sheet; or they can be presented in different formats if needed.</li>
 </ul>
 <h3>Recommendation</h3>
-<p>As a first step, “Type 2 A, B, C and D (strength, ingredients)” is recommended for ASEAN countries.</p>
-<p>It will help to enable advanced search function for key information such as company, product name, license, ingredients, and strength (use case 1). Also, the cross-border use case can be made possible, which provides patients the ability to get access to medicines they need while traveling (use case 2).</p>
-<p>If the markets allow to add more resources, “Type 2 A, B, C, D (strength, ingredients), and F” is recommended for ASEAN countries, because the use case 2, and 4 are also useful.</p>
-<p>Drug shortages is a common issue around the world including ASEAN countries. Also, it would be ideal to improve the supply chain and distribution within ASEAN countries, since there are some scenarios for the shared pack.
-</p>
+<p>As a first step, “Type 2 A, B, C and D (strength, ingredients)” is recommended for ASEAN countries.</p> 
+<p>It will help to enable advanced search functions for key information such as company, product name, license, ingredients, and strength. Also, the cross-border use case can be made possible, which provides patients the ability to get access to medicines they need while traveling. The use case for Electronic Health to better support Electronic Medical Records, ePrescription, and Allergies can also be started with the availability of these resources, even though it could be further enhanced when resource E is available.</p>
+<p>If the markets allow adding more resources, “Type 2 A, B, C, D (strength, ingredients), and F” is recommended for ASEAN countries, because the use cases for drug shortage and supply chain/distribution are also useful.</p> 
+<p>Drug shortage is a common issue around the world, including ASEAN countries. Also, it would be ideal to improve the supply chain and distribution within ASEAN countries, since there are some scenarios for the shared pack.</p>
