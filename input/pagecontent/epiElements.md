@@ -108,27 +108,27 @@
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
-                <td style="border: 1px solid grey; padding-left: 20px;">Title</td>
+                <td style="border: 1px solid grey; padding-left: 40px;">Title</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
-                <td style="border: 1px solid grey; padding-left: 20px;">coding</td>
+                <td style="border: 1px solid grey; padding-left: 40px;">coding</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
-                <td style="border: 1px solid grey; padding-left: 20px;">code system</td>
+                <td style="border: 1px solid grey; padding-left: 50px;">code system</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
-                <td style="border: 1px solid grey; padding-left: 20px;">code</td>
+                <td style="border: 1px solid grey; padding-left: 50px;">code</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
-                <td style="border: 1px solid grey; padding-left: 20px;">display</td>
+                <td style="border: 1px solid grey; padding-left: 50px;">display</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
-                <td style="border: 1px solid grey; padding-left: 20px;">text</td>
+                <td style="border: 1px solid grey; padding-left: 40px;">text</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
         </tbody>
