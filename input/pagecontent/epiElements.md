@@ -236,10 +236,10 @@
         </tbody>
     </table>
 </body>
+Regulated Authorization
 <head>
     <title>FHIR Resource and Data Element - Regulated Authorization</title>
 </head>
-Regulated Authorization
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
