@@ -1,14 +1,17 @@
 <html>
-<head>
-    <title>ePI Type 1</title>
-</head>
-    <h3>ePI Type 1</h3>
+<p>The base FHIR specification describes a set of <a href="https://hl7.org/fhir/resourcelist.html">base resources</a> used in many different use cases.</p>
+<p>A FHIR profile is a customized version of a resource. It defines specific rules and constraints for how a resource should be used in a particular context (ePI in this case). This customization ensures that the data exchanged is consistent and meets the specific needs of different  organizations or systems.</p>
+
+<p>As noted in the <a href="https://build.fhir.org/ig/cander2/aseanepi/usecases.html#recommendation">Use Cases/Recommendations section</a>, ePI Type 2 (A, B, C, and D) is recommended as the ideal approach for ASEAN markets to benefit from FHIR ePI.</p>
+
+<p>The following content serves as a business friendly version of the recommended ePI Type 2 profile. The real ePI profile (i.e., the structured version) can be found on the Artifacts page; along with sample data.</p>
+    <h3>ePI Type 2 Resources and Elements</h3>
     <p>Bundle</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
                 <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-                <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+                <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
             </tr>
         </thead>
         <tbody>
@@ -51,7 +54,7 @@
         <thead>
             <tr>
                 <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-                <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+                <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
             </tr>
         </thead>
         <tbody>
@@ -133,16 +136,12 @@
             </tr>
         </tbody>
     </table>
-<head>
-    <title>ePI Type 2</title>
-</head>
-    <h3>ePI Type 2</h3>
     <p>Organization</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
                 <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-                <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+                <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
             </tr>
         </thead>
         <tbody>
@@ -240,7 +239,7 @@
         <thead>
             <tr>
                 <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-                <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+                <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
             </tr>
         </thead>
         <tbody>
@@ -306,21 +305,21 @@
             </tr>
         </tbody>
     </table>
-<p>Manufactured Item Definition</p>
+<p>Manufactured Item Description</p>
 <head>
-    <title>FHIR Resource and Data Element - Manufactured Item Definition</title>
+    <title>FHIR Resource and Data Element - Manufactured Item Description</title>
 </head>
 <body>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
                 <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-                <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+                <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td style="border: 1px solid grey;">Manufactured Item Definition</td>
+                <td style="border: 1px solid grey;">Manufactured Item Description</td>
                 <td style="border: 1px solid grey;"></td>
             </tr>
             <tr>
@@ -395,7 +394,7 @@
   <thead>
     <tr>
       <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-      <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+      <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
     </tr>
   </thead>
   <tbody>
@@ -833,17 +832,17 @@
     </tr>
   </tbody>
 </table>
-<p>Substance Definition</p>
+<p>Substance Description</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
       <th style="border: 1px solid grey; background-color: #e0e0e0;">FHIR Resource and Data Element</th>
-      <th style="border: 1px solid grey; background-color: #e0e0e0;">Definition</th>
+      <th style="border: 1px solid grey; background-color: #e0e0e0;">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid grey;">Substance Definition</td>
+      <td style="border: 1px solid grey;">Substance Description</td>
       <td style="border: 1px solid grey;"></td>
     </tr>
     <tr>
