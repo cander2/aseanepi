@@ -2,7 +2,7 @@
 <head>
     <title>ePI Type 1</title>
 </head>
-    <h1>ePI Type 1</h1>
+    <h3>ePI Type 1</h3>
     <p>Bundle</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
@@ -136,7 +136,7 @@
 <head>
     <title>ePI Type 2</title>
 </head>
-    <h1>ePI Type 2</h1>
+    <h3>ePI Type 2</h3>
     <p>Organization</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
@@ -232,7 +232,6 @@
             </tr>
         </tbody>
     </table>
-</body>
 <p>Regulated Authorization</p>
 <head>
     <title>FHIR Resource and Data Element - Regulated Authorization</title>
@@ -1123,6 +1122,7 @@
     </tr>
   </tbody>
 </table>
+<h3>ePI Type 3</h3>
 <p>Clinical Use Definition - indication</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>

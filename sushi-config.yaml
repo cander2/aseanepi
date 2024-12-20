@@ -56,8 +56,6 @@ pages:
      title: Best Practice
    appendix1.md:
      title: Appendix 1
-   appendix2.md:
-     title: Appendix 2
 
 #   implementation.xml:
 #   examples.xml:
@@ -73,7 +71,6 @@ menu:
   Best Practice: bestpractice.html
   Appendices: 
     Appendix 1: appendix1.html
-    Appendix 2: appendix2.html
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
