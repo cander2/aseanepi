@@ -6,7 +6,8 @@
 
 <p>The following content serves as a business friendly version of the recommended ePI Type 2 profile. The real ePI profile (i.e., the structured version) can be found on the Artifacts page; along with sample data.</p>
     <h3>ePI Type 2 Resources and Elements</h3>
-    <p>Bundle</p>
+    <h4>Bundle</h4>
+    <p>The Bundle resource is a container for all resources with an ePI. There are different types of Bundle but for ePI, the Bundle type is always "Document". There can only be one Bundle per ePI.</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -49,7 +50,8 @@
             </tr>
         </tbody>
     </table>
-    <p>Composition</p>
+    <h4>Composition</h4>
+    <p>The Composition resource is the basic structure for an ePI document since it carries the section headings, images, and narrrative content (e.g., text, tables, bulleted/numbered lists). There can only be one Composition per ePI Document Bundle</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -136,7 +138,8 @@
             </tr>
         </tbody>
     </table>
-    <p>Organization</p>
+    <h4>Organization</h4>
+    <p>The Organization Resource describes the company name, identifier, address, and type. There must be one or more Organizations in an ePI.</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -231,7 +234,8 @@
             </tr>
         </tbody>
     </table>
-<p>Regulated Authorization</p>
+<h4>Regulated Authorization</h4>
+<p>The Regulated Authorization resource describes a regulatory approval or licence related to a regulated medicinal product (E.g., a Market Authorization). There must be one or more Regulated Authorizations in an ePI.</p>
 <head>
     <title>FHIR Resource and Data Element - Regulated Authorization</title>
 </head>
@@ -305,9 +309,10 @@
             </tr>
         </tbody>
     </table>
-<p>Manufactured Item Description</p>
+<h4>Manufactured Item Definition</h4>
+<p>The Manufactured Item Definition resource describes the physical properties of the pharmaceutical dose form in its primary package (e.g., strength, ingredients, size, colour, shape). There must be one or more Manufactured Item Definitions in an ePI.</p>
 <head>
-    <title>FHIR Resource and Data Element - Manufactured Item Description</title>
+    <title>FHIR Resource and Data Element - Manufactured Item Definition</title>
 </head>
 <body>
     <table style="border: 1px solid grey; border-collapse: collapse;">
@@ -389,7 +394,8 @@
         </tbody>
     </table>
 </body>
-<p>Ingredient</p>
+<h4>Ingredient</h4>
+<p>The Ingredient resource uniquely describes all ingredients contained in the Manufactured Item. This includes ingredient name, identifier, role (active, inactive, adjuvant), manufacturer, and strength. There must be at least one or more Ingredients in an ePI.</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -832,7 +838,8 @@
     </tr>
   </tbody>
 </table>
-<p>Substance Description</p>
+<h4>Substance Definition</h4>
+<p>The Substance Definition resource describes an ingredient in more detail (e.g., molecular weight, chemical structure). There must be one or more Substance Definitions in an ePI.</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -842,7 +849,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid grey;">Substance Description</td>
+      <td style="border: 1px solid grey;">Substance Definition</td>
       <td style="border: 1px solid grey;"></td>
     </tr>
     <tr>
