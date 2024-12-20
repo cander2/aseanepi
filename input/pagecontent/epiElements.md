@@ -1,10 +1,8 @@
-
 <head>
     <title>ePI Type 1</title>
 </head>
-<body>
     <h1>ePI Type 1</h1>
-    Bundle
+    <p>Bundle</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -47,7 +45,7 @@
             </tr>
         </tbody>
     </table>
-    Composition
+    <p>Composition</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -134,13 +132,11 @@
             </tr>
         </tbody>
     </table>
-</body>
 <head>
     <title>ePI Type 2</title>
 </head>
-<body>
     <h1>ePI Type 2</h1>
-    Organization
+    <p>Organization</p>
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -236,7 +232,7 @@
         </tbody>
     </table>
 </body>
-Regulated Authorization
+<p>Regulated Authorization</p>
 <head>
     <title>FHIR Resource and Data Element - Regulated Authorization</title>
 </head>
@@ -310,12 +306,11 @@ Regulated Authorization
             </tr>
         </tbody>
     </table>
-</body>
+<p>Manufactured Item Definition</p>
 <head>
     <title>FHIR Resource and Data Element - Manufactured Item Definition</title>
 </head>
 <body>
-Manufactured Item Definition
     <table style="border: 1px solid grey; border-collapse: collapse;">
         <thead>
             <tr>
@@ -395,9 +390,7 @@ Manufactured Item Definition
         </tbody>
     </table>
 </body>
-
-
-Ingredient
+<p>Ingredient</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -566,7 +559,6 @@ Ingredient
         <td>Strength (Concentration - quantity)</td>
         <td style="border: 1px solid grey;"></td>
     </tr>
-  <tbody>
     <tr>
       <td style="border: 1px solid grey; padding-left: 20px;">Presentation Quantity</td>
       <td style="border: 1px solid grey;"></td>
@@ -591,7 +583,6 @@ Ingredient
       <td style="border: 1px solid grey;">Strength (Concentration - ratio)</td>
       <td style="border: 1px solid grey;"></td>
     </tr>
-  <tbody>
     <tr>
       <td style="border: 1px solid grey; padding-left: 20px;">Numerator</td>
       <td style="border: 1px solid grey;"></td>
@@ -632,7 +623,6 @@ Ingredient
       <td style="border: 1px solid grey; padding-left: 40px;">Code</td>
       <td style="border: 1px solid grey;"></td>
     </tr>
-    
 <tr>
       <td style="border: 1px solid grey;">Strength (Concentration - RatioRange)</td>
       <td style="border: 1px solid grey;"></td>
@@ -705,8 +695,6 @@ Ingredient
       <td style="border: 1px solid grey; ">Reference Strength</td>
       <td style="border: 1px solid grey; "></td>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td style="border: 1px solid grey; padding-left: 20px;">Substance</td>
       <td style="border: 1px solid grey;"></td>
@@ -845,7 +833,7 @@ Ingredient
     </tr>
   </tbody>
 </table>
-Substance Definition
+<p>Substance Definition</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -892,7 +880,7 @@ Substance Definition
     </tr>
   </tbody>
 </table>
-Administrable Product Definition
+<p>Administrable Product Definition</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -983,7 +971,7 @@ Administrable Product Definition
     </tr>
   </tbody>
 </table>
-Packaged Product Definition
+<p>Packaged Product Definition</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -1134,7 +1122,7 @@ Packaged Product Definition
     </tr>
   </tbody>
 </table>
-Clinical Use Definition - indication
+<p>Clinical Use Definition - indication</p>
 <table style="border: 1px solid grey; border-collapse: collapse;">
   <thead>
     <tr>
@@ -1401,4 +1389,3 @@ Clinical Use Definition - indication
     </tr>
   </tbody>
 </table>
-</html>
