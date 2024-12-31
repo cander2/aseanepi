@@ -17,60 +17,60 @@
         </thead>
             <tbody>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>id</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>System
                             generated UUID used uniquely identify this resource</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Version</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Incremental version number for this ePI document (e.g., 1, 2, 3, 4,
                             5)</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Date of
                             last update</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Date of
                             last revision for this version of the authorized ePI document.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Identifier</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Business
                             assigned identifier to uniquely identify this version of the ePI</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Type</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Defines
                             the type of Bundle. For ePI, the type must always be “Document”.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Time
                             Stamp</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Original
                             date of approval for this ePI. This date remains the same across all
                             versions of the ePI.</p>
@@ -89,49 +89,49 @@
         </thead>
             <tbody>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>id</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>System
                             generated UUID used uniquely identify this resource</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Language</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             language of this ePI’s narrative text. ISO two letter language code.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Text</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Narrative
                             description of this ePI</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Version</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Incremental version number for this Composition (e.g., 1, 2, 3, 4,
                             5)</p>
                     </td>
                 </tr>
                 <tr>
-                    <td style="padding-left: 20px;">
+                    <td>
                         <p><b>contained</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Images are
                             included as contained binary resources. One contained element per
                             image.</p>
@@ -142,7 +142,7 @@
                         <p>
                         <b>Binary</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Binary
                             resource for encoded images.</p>
                     </td>
@@ -151,7 +151,7 @@
                     <td style="padding-left: 60px;">
                         <p>Id value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unique
                             identifier for this image.</p>
                     </td>
@@ -160,7 +160,7 @@
                     <td style="padding-left: 60px;">
                         <p>Content Type value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>File type
                             for the binary content (e.g., SVG, PNG, JPEG).</p>
                     </td>
@@ -169,16 +169,16 @@
                     <td style="padding-left: 60px;">
                         <p>Data</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Actual
                             base64 encoded content for the image.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p><b>Extension</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>This
                             extension is an implementation work around to avoid unnecessary
                             validator errors, and expected to be drop in future profile releases,
@@ -191,44 +191,44 @@
                         <p>
                         <b>Value Reference</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
                     <td style="padding-left: 60px;">
                         <p>Reference value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The use of
                             the imageReference extension avoids warning and error messages in common
                             FHIR validators.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >identifier</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unique
                             business identifier for this version of the Composition.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>status</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Status of
                             this resource (e.g., Active, retired).</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                                 ><b>Type</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The type
                             of ePI document template (e.g., healthcare professional, patient
                             information, instruction for use, pack label)</p>
@@ -239,14 +239,14 @@
                         <p>
                         <b>coding</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
                     <td style="padding-left: 40px;">
                         <p>        system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where document type codes and display values
                             are stored.</p>
@@ -256,7 +256,7 @@
                     <td style="padding-left: 40px;">
                         <p>code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Health
                             authority assigned code for this document type.</p>
                     </td>
@@ -265,62 +265,62 @@
                     <td style="padding-left: 40px;">
                         <p>display</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Human
                             readable text for this document type.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Subject</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Cross-reference to the Medicinal Product Definition(s) associated with
                             this ePI.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Date</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Date of
                             last revision for this version of the authorized EPI document.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Author</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Cross-reference to the Organization resource representing the Market
                             Authorization Holder</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Title</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Simple
                             title for this ePI document.</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                                 ><b>Section</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
                     <td style="padding-left: 20px;">
-                        <p>    Title</p>
+                        <p>Title</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Section
                             heading defined by the market authorization holder.</p>
                     </td>
@@ -330,7 +330,7 @@
                         <p>
                         <b>coding</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Section
                             heading defined by the health authority. Cannot be changed by the market
                             authorization holder</p>
@@ -340,7 +340,7 @@
                     <td style="padding-left: 40px;">
                         <p>system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where section heading codes and display values
                             are stored.</p>
@@ -350,7 +350,7 @@
                     <td style="padding-left: 40px;">
                         <p>code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Health
                             authority assigned code for this section heading.</p>
                     </td>
@@ -359,7 +359,7 @@
                     <td style="padding-left: 40px;">
                         <p>display</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Human
                             readable text for this section.</p>
                     </td>
@@ -369,7 +369,7 @@
                         <p>
                         <b>text</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Narrative
                             text for this section (e.g., paragraphs, bulleted lists, tables).</p>
                     </td>
@@ -378,7 +378,7 @@
                     <td style="padding-left: 40px;">
                         <p>Status value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The status
                             of the narrative (i.e., always “generated”).</p>
                     </td>
@@ -387,7 +387,7 @@
                     <td style="padding-left: 40px;">
                         <p>        div</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Defines a
                             division or a section of the XHTML narrative.</p>
                     </td>
@@ -396,7 +396,7 @@
                     <td style="padding-left: 60px;">
                         <p>paragraph</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Paragraph
                             text</p>
                     </td>
@@ -405,7 +405,7 @@
                     <td style="padding-left: 60px;">
                         <p>Bulleted list</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Ordered or
                             unordered bulleted list</p>
                     </td>
@@ -414,7 +414,7 @@
                     <td style="padding-left: 60px;">
                         <p>Table</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Tables</p>
                     </td>
                 </tr>
@@ -431,52 +431,52 @@
         </thead>
         <tbody>
             <tr>
-                <td style="padding-left: 20px;">id</td>
-                 <td style="padding-left: 20px;">System generated UUID used uniquely identify this resource</td>
+                <td>id</td>
+                 <td>System generated UUID used uniquely identify this resource</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">identifier</td>
-                 <td style="padding-left: 20px;">Business assigned unique identifier(s) for this authorization. E.g., health authority assigned market authorization or license.</td>
+                <td>identifier</td>
+                 <td>Business assigned unique identifier(s) for this authorization. E.g., health authority assigned market authorization or license.</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">subject</td>
-                 <td style="padding-left: 20px;">Cross-reference to the Medicinal Product Definition(s) associated with this ePI.</td>
+                <td>subject</td>
+                 <td>Cross-reference to the Medicinal Product Definition(s) associated with this ePI.</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">type</td>
-                 <td style="padding-left: 20px;">Type of authorization</td>
+                <td>type</td>
+                 <td>Type of authorization</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">description</td>
-                 <td style="padding-left: 20px;">Narrative description of the authorization</td>
+                <td>description</td>
+                 <td>Narrative description of the authorization</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">region</td>
-                 <td style="padding-left: 20px;">ISO two letter country code for the country in which the authorization was assigned.</td>
+                <td>region</td>
+                 <td>ISO two letter country code for the country in which the authorization was assigned.</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">status</td>
-                 <td style="padding-left: 20px;">Status of this resource (e.g., Active, retired).</td>
+                <td>status</td>
+                 <td>Status of this resource (e.g., Active, retired).</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">statusDate</td>
-                 <td style="padding-left: 20px;">The date the status was assigned</td>
+                <td>statusDate</td>
+                 <td>The date the status was assigned</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">validityPeriod</td>
-                 <td style="padding-left: 20px;">Period in which the authorization is valid.</td>
+                <td>validityPeriod</td>
+                 <td>Period in which the authorization is valid.</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">basis</td>
-                 <td style="padding-left: 20px;">The legal/regulatory framework or reasons under which this authorization is granted.</td>
+                <td>basis</td>
+                 <td>The legal/regulatory framework or reasons under which this authorization is granted.</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">holder</td>
-                 <td style="padding-left: 20px;">Cross-reference to the Organization resource associated with the market authorization holder</td>
+                <td>holder</td>
+                 <td>Cross-reference to the Organization resource associated with the market authorization holder</td>
             </tr>
             <tr>
-                <td style="padding-left: 20px;">regulator</td>
-                 <td style="padding-left: 20px;">Cross-reference to the Organization resource associated with the regulator</td>
+                <td>regulator</td>
+                 <td>Cross-reference to the Organization resource associated with the regulator</td>
             </tr>
         </tbody>
     </table>           
@@ -571,7 +571,7 @@
                     <td style="padding-left: 20px;">
                         <p>telecom: phone</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Organization’s phone number(s) for</p>
                     </td>
@@ -580,7 +580,7 @@
                     <td style="padding-left: 20px;">
                         <p>telecom: email</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Organization’s email address for</p>
                     </td>
@@ -589,7 +589,7 @@
                     <td style="padding-left: 20px;">
                         <p>telecom: url</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Organization’s websites related to</p>
                     </td>
@@ -1319,7 +1319,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where pharmaceutical dose form codes and
                             display values are stored.</p>
@@ -1366,7 +1366,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of presentation codes and display
                             values are stored.</p>
@@ -1377,7 +1377,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             the unit of presentation</p>
                     </td>
@@ -1387,7 +1387,7 @@
                         <p
                             >display</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Display
                             text for the unit of presentation</p>
                     </td>
@@ -1418,7 +1418,7 @@
                         <p
                             >colour</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Colour of
                             the medicinal product</p>
                     </td>
@@ -1428,7 +1428,7 @@
                         <p
                             >flavour</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Flavour of
                             the medicinal product</p>
                     </td>
@@ -1438,7 +1438,7 @@
                         <p
                             >score</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Describes
                             whether the medicinal product is scored</p>
                     </td>
@@ -1448,7 +1448,7 @@
                         <p
                             >shape</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Describes
                             the shape of the medicinal product</p>
                     </td>
@@ -1458,7 +1458,7 @@
                         <p
                             >surface form</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Describes
                             whether the medicinal product’s surface is convex or concave</p>
                     </td>
@@ -1468,7 +1468,7 @@
                         <p
                             >size</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Describes
                             the dimensions of the medicinal product</p>
                     </td>
@@ -1478,7 +1478,7 @@
                         <p
                             >image</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Cross-reference to the Binary resource for the encoded version of the
                             image</p>
@@ -1489,7 +1489,7 @@
                         <p
                             >imprint</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Describes
                             whether the medicinal product has an imprint</p>
                     </td>
@@ -1499,7 +1499,7 @@
                         <p
                             >text</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Narrative
                             description of the medicinal product</p>
                     </td>
@@ -1588,7 +1588,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system substance codes and display values are
                             stored.</p>
@@ -1599,7 +1599,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this substance.</p>
                     </td>
@@ -1609,7 +1609,7 @@
                         <p
                             >display</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Human
                             readable text for this substance.</p>
                     </td>
@@ -1619,7 +1619,7 @@
                         <p
                                 ><b>strength (Presentation - quantity)</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             presentation quantity of the substance expressed per unit of
                             presentation</p>
@@ -1756,7 +1756,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -1766,7 +1766,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -1777,7 +1777,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -1787,7 +1787,7 @@
                         <p
                                 ><b>strength (Presentation - RatioRange)</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             presentation quantity of the substance expressed as a range</p>
                     </td>
@@ -1797,7 +1797,7 @@
                         <p
                             >lowNumerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -1805,7 +1805,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -1815,7 +1815,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -1825,7 +1825,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -1836,7 +1836,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -1846,7 +1846,7 @@
                         <p
                             >highNumerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -1854,7 +1854,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -1864,7 +1864,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -1874,7 +1874,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -1885,7 +1885,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -1895,7 +1895,7 @@
                         <p
                             >denominator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -1903,7 +1903,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -1913,7 +1913,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -1923,7 +1923,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -1934,7 +1934,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -1944,7 +1944,7 @@
                         <p
                                 ><b>strength (Concentration - quantity)</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             concentration<b></b>quantity of the substance expressed per unit of
                             presentation</p>
@@ -1955,7 +1955,7 @@
                         <p
                             >presentationQuantity</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -1963,7 +1963,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -1973,7 +1973,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -1983,7 +1983,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -1994,7 +1994,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2004,7 +2004,7 @@
                         <p
                                 ><b>strength (Concentration - ratio)</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             concentration<b></b>quantity of the substance expressed as a ratio</p>
                     </td>
@@ -2014,7 +2014,7 @@
                         <p
                             >numerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2022,7 +2022,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2032,7 +2032,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2042,7 +2042,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2053,7 +2053,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2071,7 +2071,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2091,7 +2091,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2102,7 +2102,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2112,7 +2112,7 @@
                         <p
                                 ><b>strength (Concentration - RatioRange)</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             concentration<b></b>quantity of the substance expressed as a range</p>
                     </td>
@@ -2122,7 +2122,7 @@
                         <p
                             >lowNumerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2130,7 +2130,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2140,7 +2140,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2150,7 +2150,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2161,7 +2161,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2171,7 +2171,7 @@
                         <p
                             >highNumerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2179,7 +2179,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2189,7 +2189,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2199,7 +2199,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2210,7 +2210,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2220,7 +2220,7 @@
                         <p
                             >denominator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2228,7 +2228,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2238,7 +2238,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2248,7 +2248,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2259,7 +2259,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2276,7 +2276,7 @@
                         <p
                             >referenceStrength</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Describes
                             moiety as the quantity of substance.</p>
                     </td>
@@ -2286,7 +2286,7 @@
                         <p
                             >substance</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Cross-reference to the substance identifier</p>
                     </td>
@@ -2296,7 +2296,7 @@
                         <p
                             >strength</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Quantity
                             of substance</p>
                     </td>
@@ -2306,7 +2306,7 @@
                         <p
                                 ><b>strengthQuanitity</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             quantity of the substance expressed per unit of measure.</p>
                     </td>
@@ -2316,7 +2316,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2326,7 +2326,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2336,7 +2336,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2347,7 +2347,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2357,7 +2357,7 @@
                         <p
                                 ><b>strengthRatio</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             quantity of the substance expressed as a ratio.</p>
                     </td>
@@ -2367,7 +2367,7 @@
                         <p
                             >numerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2375,7 +2375,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2385,7 +2385,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2395,7 +2395,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2406,7 +2406,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2416,7 +2416,7 @@
                         <p
                             >denominator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2424,7 +2424,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2434,7 +2434,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2444,7 +2444,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2455,7 +2455,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2465,7 +2465,7 @@
                         <p
                                 ><b>strengthRatioRange</b></p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>The
                             quantity of the substance expressed as a range.</p>
                     </td>
@@ -2475,7 +2475,7 @@
                         <p
                             >lowNumerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2483,7 +2483,7 @@
                         <p
                             >value</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Numeric
                             quantity </p>
                     </td>
@@ -2493,7 +2493,7 @@
                         <p
                             >unit</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Unit of
                             measure</p>
                     </td>
@@ -2503,7 +2503,7 @@
                         <p
                             >system</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Reference
                             to the terminology system where unit of measure codes and display values
                             are stored.</p>
@@ -2514,7 +2514,7 @@
                         <p
                             >code</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Code for
                             this unit</p>
                     </td>
@@ -2524,7 +2524,7 @@
                         <p
                             >highNumerator</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                     </td>
                 </tr>
                 <tr>
@@ -2632,49 +2632,49 @@
         </thead>
             <tbody>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>id</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>System
                             generated UUID used uniquely identify this resource</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >identifier</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Business
                             assigned unique identifier(s) for this substance. </p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >version</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p
                             >Incremental version number for this ePI document (e.g., 1, 2, 3, 4,
                             5)</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>status</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Status of
                             this resource (e.g., Active, retired).</p>
                     </td>
                 </tr>
                 <tr>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>name</p>
                     </td>
-                     <td style="padding-left: 20px;">
+                     <td>
                         <p>Human
                             readable name for this substance.</p>
                     </td>
