@@ -2,7 +2,7 @@
 <p>The base FHIR specification describes a set of <a href="https://hl7.org/fhir/resourcelist.html">base resources</a> used in many different use cases.</p>
 <p>A FHIR profile is a customized version of a resource. It defines specific rules and constraints for how a resource should be used in a particular context (ePI in this case). This customization ensures ßthat the data exchanged is consistent and meets the specific needs of different  organizations or systems.</p>
 
-<p>As noted in the <a href="https://build.fhir.org/ig/cander2/aseanepi/usecases.html#recommendation">Use Cases/Recommendations section</a>, ePI Type 2 (A, B, C, and D) is recommended as the ideal approach for ASEAN markets to benefit from FHIR ePI.</p>
+<p>As noted in the <a href="https://build.fhir.org/ig/cander2/aseanepi/usecases.html#recommendation">Use Cases/Recommendations section</a>, ePI Type 2 (A, B, C, and D) is recommended as the ideal approach for countries in the APAC region to benefit from FHIR ePI.</p>
 
 <p>The following content serves as a business friendly version of the recommended ePI Type 2 profile. The real ePI profile (i.e., the structured version) can be found on the Artifacts page; along with sample data.</p>
     <h3>ePI Type 2 Resources and Elements</h3>
