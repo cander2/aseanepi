@@ -52,10 +52,10 @@ pages:
     title: Terminology
    epiElements.md:
     title: ePI Elements
-  TechStyleGuide.md:
+   TechStyleGuide.md:
     title: Technical Style Guide
    appendix1.md:
-     title: Appendix 1
+    title: Appendix 1
 
 #   implementation.xml:
 #   examples.xml:
