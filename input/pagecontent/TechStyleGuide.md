@@ -729,7 +729,7 @@ Bullet text #1
     <h3>Math formulas</h3>
     <p>Mathematical Markup Language (MathML) or similar structured mathematical notations are not compliant with the FHIR specification at this time. Simple formulas can be recreated in the narrative. For example, (a + b)<sup>2</sup> could be expressed as:</p>
     <p>&lt;p&gt;a + b<sup>2</sup>&lt;/p&gt;</p>
-    <p>Complex formulas (e.g., ) must be incorporated into the ePI as an image and then referenced in the text using the image tag &lt;img&gt; (Refer to section 5.4 for guidance on images).</p>
+    <p>Complex formulas must be incorporated into the ePI as an image and then referenced in the text using the image tag &lt;img&gt; (Refer to section 5.4 for guidance on images).</p>
 
     <h2>Appendices</h2>
     <h3>References</h3>
