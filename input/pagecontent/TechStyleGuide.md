@@ -1,13 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" />
     <title>Technical Style Guide Recommendations</title>
 </head>
 <body>
-    <h1>Vulcan FHIR ePI: Technical Style Guide Recommendations</h1>
-    <p>This Word document is a convenience copy for gathering comments. Its content will eventually be incorporated into the ePI Implementation Guide.</p>
-
     <h2>Objective</h2>
     <p>To provide standardized instructions for structuring ePI content; and ensure the consistency, clarity and quality of ePIs across organizations, jurisdictions, and regulators. These recommendations are subject to local regulatory rules. Refer to local regulatory guidance for actual requirements.</p>
 
