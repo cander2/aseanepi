@@ -1,0 +1,1406 @@
+{
+  "resourceType": "Bundle",
+  "id": "aromasin-epi-bundle",
+  "meta": {
+    "lastUpdated": "2025-06-26T07:24:00+09:00"
+  },
+  "identifier": {
+    "system": "http://pmda.go.jp/fhir/identifier/epi",
+    "value": "aromasin-epi-20250626"
+  },
+  "type": "document",
+  "timestamp": "2025-06-26T07:24:00+09:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:comp-aromasin",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "comp-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+        },
+        "language": "ja",
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "34391-3",
+              "display": "Medication guide"
+            }
+          ]
+        },
+        "date": "2022-02-01",
+        "author": [
+          {
+            "reference": "urn:uuid:org-pfizer-japan"
+          }
+        ],
+        "title": "アロマシン錠25mg 添付文書",
+        "section": [
+          {
+            "title": "ア. 作成又は改訂年月",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "DateOfPreparationOrRevision"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Date of Preparation or Revision]</div>"
+            }
+          },
+          {
+            "title": "イ. 日本標準商品分類番号",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "Sccj"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Japanese Standard Commodity Classification Number]</div>"
+            }
+          },
+          {
+            "title": "ウ. 承認番号、販売開始年月",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "ApprovalAndLicenseNo"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Approval Number, Starting Date of Marketing]</div>"
+            }
+          },
+          {
+            "title": "エ. 貯法、有効期間",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "StorageAndShelfLifeConditions"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Storage, Expiration Period]</div>"
+            }
+          },
+          {
+            "title": "オ. 薬効分類名",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "TherapeuticClassification"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Therapeutic Classification Name]</div>"
+            }
+          },
+          {
+            "title": "カ. 規制区分",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "RegulatoryClassification"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Regulatory Classification]</div>"
+            }
+          },
+          {
+            "title": "キ. 名称",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "ApprovalEtc"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Name]</div>"
+            }
+          },
+          {
+            "title": "1. 警告",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "Warnings"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Warnings]</div>"
+            }
+          },
+          {
+            "title": "2. 禁忌",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "ContraIndications"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Contraindications]</div>"
+            }
+          },
+          {
+            "title": "3. 組成・性状",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "CompositionAndProperty"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Composition and Properties]</div>"
+            },
+            "section": [
+              {
+                "title": "3.1 組成",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Composition"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Composition]</div>"
+                }
+              },
+              {
+                "title": "3.2 製剤の性状",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Property"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Properties of the Formulation]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "4. 効能又は効果",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "IndicationsOrEfficacy"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Indications or Efficacy]</div>"
+            }
+          },
+          {
+            "title": "5. 効能又は効果に関連する注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "EfficacyRelatedPrecautions"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions Related to Efficacy]</div>"
+            }
+          },
+          {
+            "title": "6. 用法及び用量",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "InfoDoseAdmin"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Dosage and Administration]</div>"
+            },
+            "section": [
+              {
+                "title": "用法及び用量に関する説明",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "InfoDoseAdminExplanation"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Explanation on Dosage and Administration]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "7. 用法及び用量に関連する注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "InfoPrecautionsDosage"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions Related to Dosage]</div>"
+            }
+          },
+          {
+            "title": "8. 重要な基本的注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "ImportantPrecautions"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Important Precautions]</div>"
+            }
+          },
+          {
+            "title": "9. 特定の背景を有する患者に関する注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "UseInSpecificPopulations"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions for Specific Populations]</div>"
+            },
+            "section": [
+              {
+                "title": "9.1 合併症・既往歴等のある患者",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "PatientsWithComplications"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Patients with Complications or History of Diseases]</div>"
+                }
+              },
+              {
+                "title": "9.2 腎機能障害患者",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "PatientsWithRenalImpairment"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Patients with Renal Impairment]</div>"
+                }
+              },
+              {
+                "title": "9.3 肝機能障害患者",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "PatientsWithHepaticImpairment"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Patients with Hepatic Impairment]</div>"
+                }
+              },
+              {
+                "title": "9.4 生殖能を有する者",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "ReproductivePotential"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Males and Females of Reproductive Potential]</div>"
+                }
+              },
+              {
+                "title": "9.5 妊婦",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "UseInPregnant"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Use in Pregnant]</div>"
+                }
+              },
+              {
+                "title": "9.6 授乳婦",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "UseInNursing"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Use in Nursing]</div>"
+                }
+              },
+              {
+                "title": "9.7 小児等",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "PediatricUse"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Pediatric Use]</div>"
+                }
+              },
+              {
+                "title": "9.8 高齢者",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "UseInTheElderly"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Use in the Elderly]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "10. 相互作用",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "Interactions"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Interactions]</div>"
+            },
+            "section": [
+              {
+                "title": "10.1 併用禁忌（併用しないこと）",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "ContraindicatedCombinations"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Contraindicated Combinations]</div>"
+                }
+              },
+              {
+                "title": "10.2 併用注意（併用に注意すること）",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "PrecautionsForCombinations"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions for Combinations]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "11. 副作用",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "AdverseEvents"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Adverse Events]</div>"
+            },
+            "section": [
+              {
+                "title": "11.1 重大な副作用",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "SeriousAdverseEvents"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Serious Adverse Events]</div>"
+                }
+              },
+              {
+                "title": "11.2 その他の副作用",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "OtherAdverseEvents"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Other Adverse Events]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "12. 臨床検査結果に及ぼす影響",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "InfluenceOnLaboratoryValues"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Influence on Laboratory Values]</div>"
+            }
+          },
+          {
+            "title": "13. 過量投与",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "Overdosage"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Overdosage]</div>"
+            }
+          },
+          {
+            "title": "14. 適用上の注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "PrecautionsForApplication"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions for Application]</div>"
+            }
+          },
+          {
+            "title": "15. その他注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "OtherPrecautions"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Other Precautions]</div>"
+            },
+            "section": [
+              {
+                "title": "15.1 臨床使用に基づく情報",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "InformationBasedOnClinicalUse"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Information Based on Clinical Use]</div>"
+                }
+              },
+              {
+                "title": "15.2 非臨床試験に基づく情報",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "InformationBasedOnNonclinicalStudies"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Information Based on Non-Clinical Trials]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "16. 薬物動態",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "Pharmacokinetics"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Pharmacokinetics]</div>"
+            },
+            "section": [
+              {
+                "title": "16.1 血中濃度",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "BloodLevel"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Blood Concentration]</div>"
+                }
+              },
+              {
+                "title": "16.2 吸収",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Absorption"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Absorption]</div>"
+                }
+              },
+              {
+                "title": "16.3 分布",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Distribution"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Distribution]</div>"
+                }
+              },
+              {
+                "title": "16.4 代謝",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Metabolism"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Metabolism]</div>"
+                }
+              },
+              {
+                "title": "16.5 排泄",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Excretion"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Excretion]</div>"
+                }
+              },
+              {
+                "title": "16.6 特定の背景を有する患者",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "SpecificPopulation"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Patients with Specific Backgrounds]</div>"
+                }
+              },
+              {
+                "title": "16.7 薬物相互作用",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "DrugInteractions"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Drug Interactions]</div>"
+                }
+              },
+              {
+                "title": "16.8 その他",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "Others"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Others]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "17. 臨床成績",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "ResultsOfClinicalTrials"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Clinical Results]</div>"
+            },
+            "section": [
+              {
+                "title": "17.1 有効性及び安全性に関する試験",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "EfficacyAndSafety"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Efficacy and Safety Trials]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "18. 薬効薬理",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "EfficacyPharmacology"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Pharmacodynamics]</div>"
+            },
+            "section": [
+              {
+                "title": "18.1 作用機序",
+                "code": {
+                  "coding": [
+                    {
+                      "system": "http://pmda.go.jp/codes",
+                      "code": "MechanismOfAction"
+                    }
+                  ]
+                },
+                "text": {
+                  "status": "generated",
+                  "div": "<div xml:lang=\"ja\">[Placeholder text for Mechanism of Action]</div>"
+                }
+              }
+            ]
+          },
+          {
+            "title": "19. 有効成分に関する理化学的知見",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "PhyschemOfActIngredients"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Physicochemical Knowledge of Active Ingredients]</div>"
+            }
+          },
+          {
+            "title": "20. 取扱い上の注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "PrecautionsForHandling"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions for Handling]</div>"
+            }
+          },
+          {
+            "title": "21. 承認条件",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "ConditionsOfApproval"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Approval Conditions]</div>"
+            }
+          },
+          {
+            "title": "22. 包装",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "Package"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Packaging]</div>"
+            }
+          },
+          {
+            "title": "23. 主要文献",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "MainLiterature"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Key References]</div>"
+            }
+          },
+          {
+            "title": "24. 文献請求先及び問い合わせ先",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "AddresseeOfLiteratureRequest"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Reference Request and Contact Information]</div>"
+            }
+          },
+          {
+            "title": "25. 保険給付上の注意",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "PrecautionsForInsuranceCoverage"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Precautions for Insurance Coverage]</div>"
+            }
+          },
+          {
+            "title": "26. 製造販売業者等",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://pmda.go.jp/codes",
+                  "code": "NameAddressManufact"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xml:lang=\"ja\">[Placeholder text for Manufacturers and Distributors]</div>"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:mpd-aromasin",
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "mpd-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+        },
+        "identifier": [
+          {
+            "system": "http://pmda.go.jp/yjcode",
+            "value": "4291012F1022"
+          },
+          {
+            "system": "http://pmda.go.jp/sccj",
+            "value": "874291"
+          }
+        ],
+        "name": [
+          {
+            "productName": "アロマシン錠25mg",
+            "namePart": [
+              {
+                "part": "エキセメスタン",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/medicinal-product-name-part-type",
+                      "code": "scientific"
+                    }
+                  ]
+                }
+              },
+              {
+                "part": "Aromasin Tablets 25mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/medicinal-product-name-part-type",
+                      "code": "invented"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/language",
+                    "valueCode": "en"
+                  }
+                ]
+              },
+              {
+                "part": "あろましんじょう25mg",
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://hl7.org/fhir/medicinal-product-name-part-type",
+                      "code": "invented"
+                    }
+                  ]
+                },
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/language",
+                    "valueCode": "ja-Hira"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "classification": [
+          {
+            "coding": [
+              {
+                "system": "http://www.whocc.no/atc",
+                "code": "L02BG06",
+                "display": "Exemestane"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:org-pfizer-japan",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "org-pfizer-japan",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+        },
+        "name": "Pfizer Japan Inc.",
+        "contact": [
+          {
+            "address": {
+              "city": "Tokyo",
+              "country": "Japan"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "[Pfizer Japan Product Information Center contact number]"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:auth-aromasin",
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "auth-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+        },
+        "identifier": [
+          {
+            "system": "http://pmda.go.jp/fhir/identifier/authorization",
+            "value": "21400AMY00186"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "urn:uuid:mpd-aromasin"
+          }
+        ],
+        "regulatoryStatus": {
+          "coding": [
+            {
+              "system": "http://pmda.go.jp/codes",
+              "code": "12"
+            }
+          ]
+        },
+        "marketingStatus": [
+          {
+            "dateRange": {
+              "start": "2002-08-01"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:ing-exemestane",
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "ing-exemestane",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+        },
+        "for": [
+          {
+            "reference": "urn:uuid:mpd-aromasin"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/ingredient-role",
+              "code": "active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "387207008",
+                  "display": "Exemestane"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "quantity": {
+                "value": 25,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "presentation": {
+                "value": 1,
+                "unit": "tablet"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:sub-exemestane",
+      "resource": {
+        "resourceType": "Substance",
+        "id": "sub-exemestane",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Substance-uv-epi"]
+        },
+        "code": {
+          "concept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "387207008",
+                "display": "Exemestane"
+              }
+            ]
+          }
+        },
+        "property": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/substance-property-type",
+                  "code": "molecularFormula"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "C20H24O2"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/substance-property-type",
+                  "code": "molecularWeight"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 296.40,
+              "unit": "g/mol"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:pack-aromasin",
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "pack-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+        },
+        "for": [
+          {
+            "reference": "urn:uuid:mpd-aromasin"
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/packaging-type",
+                "code": "100000073498",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 28,
+          "containedItem": [
+            {
+              "item": {
+                "reference": "urn:uuid:manitem-aromasin"
+              },
+              "amount": {
+                "value": 14,
+                "unit": "tablet"
+              }
+            }
+          ]
+        },
+        "storageCondition": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "258705004",
+              "display": "Room temperature"
+            }
+          ],
+          "text": "室温保存"
+        },
+        "shelfLifeStorage": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/product-shelf-life-type",
+                  "code": "shelfLife"
+                }
+              ]
+            },
+            "periodDuration": {
+              "value": 3,
+              "unit": "year",
+              "system": "http://unitsofmeasure.org",
+              "code": "a"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:manitem-aromasin",
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "manitem-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "385055001",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "property": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/manufactured-item-property",
+                  "code": "color"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "白色～微灰白色"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/manufactured-item-property",
+                  "code": "shape"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "糖衣錠"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/manufactured-item-property",
+                  "code": "imprint"
+                }
+              ]
+            },
+            "valueCodeableConcept": {
+              "text": "7663"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://hl7.org/fhir/manufactured-item-property",
+                  "code": "sizeDiameter"
+                }
+              ]
+            },
+            "valueQuantity": {
+              "value": 6.0,
+              "unit": "mm",
+              "system": "http://unitsofmeasure.org",
+              "code": "mm"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:admin-aromasin",
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "admin-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+        },
+        "for": [
+          {
+            "reference": "urn:uuid:mpd-aromasin"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "26643006",
+                  "display": "Oral route"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:cud-ind-aromasin",
+      "resource": {
+        "resourceType": "ClinicalUseDefinition",
+        "id": "cud-ind-aromasin",
+        "meta": {
+          "profile": ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"]
+        },
+        "type": "indication",
+        "subject": [
+          {
+            "reference": "urn:uuid:mpd-aromasin"
+          }
+        ],
+        "indication": {
+          "diseaseSymptomProcedure": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "254837009",
+                "display": "Postmenopausal breast cancer"
+              }
+            ],
+            "text": "閉経後乳癌"
+          }
+        }
+      }
+    }
+  ]
+}
