@@ -4,6 +4,7 @@
   "url": "http://hl7.org/fhir/uv/epi-asean/ImplementationGuide/hl7.fhir.uv.epi-asean",
   "version": "0.1.0",
   "name": "aseanepi",
+  "title": "ePI IG for APAC markets",
   "status": "draft",
   "publisher": "Gravitate Health Project",
   "contact": [
@@ -23,6 +24,13 @@
   ],
   "definition": {
     "resource": [
+      {
+        "reference": {
+          "reference": "Bundle/aromasin-epi-bundle"
+        },
+        "exampleBoolean": false,
+        "name": "aromasin-epi-bundle"
+      },
       {
         "reference": {
           "reference": "StructureDefinition/MyPatient"
@@ -48,6 +56,31 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "usecases.html",
+          "title": "Use Cases",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminology.html",
+          "title": "Terminology",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "epiElements.html",
+          "title": "ePI Elements",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "TechStyleGuide.html",
+          "title": "Technical Style Guide",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "appendix1.html",
+          "title": "Appendix 1",
           "generation": "markdown"
         }
       ]
