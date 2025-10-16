@@ -26,13 +26,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "Bundle/aromasin-epi-bundle"
-        },
-        "exampleBoolean": false,
-        "name": "aromasin-epi-bundle"
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/MyPatient"
         },
         "name": "MyPatient",
